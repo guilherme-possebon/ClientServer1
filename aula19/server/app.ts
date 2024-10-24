@@ -29,9 +29,7 @@ server.use((req: Request, res: Response, next: NextFunction) => {
     password = userPassword[1];
   }
 
-  //todo fazer consulta no banco
-  //login com sucesso
-  if (user == "bonfa" && password == "123456") {
+  if (user == "juca" && password == "1234") {
     next();
     return;
   }
